@@ -34,6 +34,9 @@ for i in range(len_input_str_list):
     #print(input_str_list)
     print(input_state)
 
+for i in range(20):
+    print('-', end='')
+print('')
 print(input_state)
 
 if input_state[1] == final_state:
